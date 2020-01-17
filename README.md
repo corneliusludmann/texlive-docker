@@ -1,3 +1,5 @@
+[![Docker pulls](https://img.shields.io/docker/pulls/ludmann/latex-texlive.svg?maxAge=3600)](https://hub.docker.com/r/ludmann/latex-texlive/) [![Docker Stars](https://img.shields.io/docker/stars/ludmann/latex-texlive.svg?maxAge=3600)](https://hub.docker.com/r/ludmann/latex-texlive/) [![Docker layers](https://images.microbadger.com/badges/image/ludmann/latex-texlive.svg)](https://microbadger.com/images/ludmann/latex-texlive) ![License](https://img.shields.io/badge/License-MIT-blue.svg?maxAge=3600)
+
 # LaTeX TeX Live Docker Images
 
 ## Supported tags and respective `Dockerfile` links
@@ -6,7 +8,7 @@
 - [`2017`](https://github.com/corneliusludmann/texlive-docker/blob/master/Dockerfile)
 
 ## What are the LaTeX TeX Live Docker Images?
-This repository provides Docker images for all historical versions (currently 2017-2019, older versions are coming soon) of TeX Live from this archive: ftp://tug.org/historic/systems/texlive/
+This repository provides Docker images for all historical versions (currently 2017-2019, older versions are coming soon) of [TeX Live](https://www.tug.org/texlive/) from this archive: ftp://tug.org/historic/systems/texlive/
 
 For all images the same Dockerfile based on `debian:testing` is used. The different versions are built with different [build args](https://docs.docker.com/engine/reference/commandline/build/#set-build-time-variables---build-arg). See the [Makefile](https://github.com/corneliusludmann/texlive-docker/blob/master/Makefile) for examples. There is a TeX Live profile file for each version, e.g. [2018/texlive.profile](https://github.com/corneliusludmann/texlive-docker/blob/master/2018/texlive.profile).
 
